@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7068ADF119EEF51B004B2998 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7068ADF019EEF51B004B2998 /* main.m */; };
+		7068ADF419EEF51B004B2998 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7068ADF319EEF51B004B2998 /* AppDelegate.m */; };
+		7068ADFC19EEF51B004B2998 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7068ADFB19EEF51B004B2998 /* Images.xcassets */; };
+		7068AE0B19EEF51C004B2998 /* TouchDrawTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7068AE0A19EEF51C004B2998 /* TouchDrawTests.m */; };
+		7068AE1519EEF57D004B2998 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7068AE1419EEF57D004B2998 /* UIKit.framework */; };
+		7068AE1719EEF586004B2998 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7068AE1619EEF586004B2998 /* Foundation.framework */; };
+		7068AE1919EEF58E004B2998 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7068AE1819EEF58E004B2998 /* CoreGraphics.framework */; };
+		7068AE1C19EEF5CF004B2998 /* RLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 7068AE1B19EEF5CE004B2998 /* RLine.m */; };
+		7068AE1F19EEF64F004B2998 /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7068AE1E19EEF64F004B2998 /* DrawView.m */; };
+		7068AE2219EEF697004B2998 /* DrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7068AE2119EEF697004B2998 /* DrawViewController.m */; };
+		70B948B519F8615600F6E018 /* RLine.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70B948B419F8615600F6E018 /* RLine.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7068AE0519EEF51C004B2998 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7068ADE319EEF51B004B2998 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7068ADEA19EEF51B004B2998;
+			remoteInfo = TouchDraw;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7068ADEB19EEF51B004B2998 /* TouchDraw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchDraw.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7068ADEF19EEF51B004B2998 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7068ADF019EEF51B004B2998 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7068ADF219EEF51B004B2998 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7068ADF319EEF51B004B2998 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7068ADFB19EEF51B004B2998 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7068AE0419EEF51C004B2998 /* TouchDrawTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchDrawTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7068AE0919EEF51C004B2998 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7068AE0A19EEF51C004B2998 /* TouchDrawTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchDrawTests.m; sourceTree = "<group>"; };
+		7068AE1419EEF57D004B2998 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7068AE1619EEF586004B2998 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7068AE1819EEF58E004B2998 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7068AE1A19EEF5CE004B2998 /* RLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RLine.h; path = ../RLine.h; sourceTree = "<group>"; };
+		7068AE1B19EEF5CE004B2998 /* RLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RLine.m; path = ../RLine.m; sourceTree = "<group>"; };
+		7068AE1D19EEF64F004B2998 /* DrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DrawView.h; path = ../DrawView.h; sourceTree = "<group>"; };
+		7068AE1E19EEF64F004B2998 /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DrawView.m; path = ../DrawView.m; sourceTree = "<group>"; };
+		7068AE2019EEF697004B2998 /* DrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DrawViewController.h; path = ../DrawViewController.h; sourceTree = "<group>"; };
+		7068AE2119EEF697004B2998 /* DrawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DrawViewController.m; path = ../DrawViewController.m; sourceTree = "<group>"; };
+		70B948B419F8615600F6E018 /* RLine.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RLine.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7068ADE819EEF51B004B2998 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7068AE1919EEF58E004B2998 /* CoreGraphics.framework in Frameworks */,
+				7068AE1719EEF586004B2998 /* Foundation.framework in Frameworks */,
+				7068AE1519EEF57D004B2998 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7068AE0119EEF51C004B2998 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7068ADE219EEF51B004B2998 = {
+			isa = PBXGroup;
+			children = (
+				7068AE1819EEF58E004B2998 /* CoreGraphics.framework */,
+				7068AE1619EEF586004B2998 /* Foundation.framework */,
+				7068AE1419EEF57D004B2998 /* UIKit.framework */,
+				7068ADED19EEF51B004B2998 /* TouchDraw */,
+				7068AE0719EEF51C004B2998 /* TouchDrawTests */,
+				7068ADEC19EEF51B004B2998 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7068ADEC19EEF51B004B2998 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7068ADEB19EEF51B004B2998 /* TouchDraw.app */,
+				7068AE0419EEF51C004B2998 /* TouchDrawTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7068ADED19EEF51B004B2998 /* TouchDraw */ = {
+			isa = PBXGroup;
+			children = (
+				7068ADF219EEF51B004B2998 /* AppDelegate.h */,
+				7068ADF319EEF51B004B2998 /* AppDelegate.m */,
+				7068AE1A19EEF5CE004B2998 /* RLine.h */,
+				7068AE1B19EEF5CE004B2998 /* RLine.m */,
+				70B948B419F8615600F6E018 /* RLine.xib */,
+				7068AE1D19EEF64F004B2998 /* DrawView.h */,
+				7068AE1E19EEF64F004B2998 /* DrawView.m */,
+				7068AE2019EEF697004B2998 /* DrawViewController.h */,
+				7068AE2119EEF697004B2998 /* DrawViewController.m */,
+				7068ADFB19EEF51B004B2998 /* Images.xcassets */,
+				7068ADEE19EEF51B004B2998 /* Supporting Files */,
+			);
+			path = TouchDraw;
+			sourceTree = "<group>";
+		};
+		7068ADEE19EEF51B004B2998 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7068ADEF19EEF51B004B2998 /* Info.plist */,
+				7068ADF019EEF51B004B2998 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7068AE0719EEF51C004B2998 /* TouchDrawTests */ = {
+			isa = PBXGroup;
+			children = (
+				7068AE0A19EEF51C004B2998 /* TouchDrawTests.m */,
+				7068AE0819EEF51C004B2998 /* Supporting Files */,
+			);
+			path = TouchDrawTests;
+			sourceTree = "<group>";
+		};
+		7068AE0819EEF51C004B2998 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7068AE0919EEF51C004B2998 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7068ADEA19EEF51B004B2998 /* TouchDraw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7068AE0E19EEF51C004B2998 /* Build configuration list for PBXNativeTarget "TouchDraw" */;
+			buildPhases = (
+				7068ADE719EEF51B004B2998 /* Sources */,
+				7068ADE819EEF51B004B2998 /* Frameworks */,
+				7068ADE919EEF51B004B2998 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchDraw;
+			productName = TouchDraw;
+			productReference = 7068ADEB19EEF51B004B2998 /* TouchDraw.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7068AE0319EEF51C004B2998 /* TouchDrawTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7068AE1119EEF51C004B2998 /* Build configuration list for PBXNativeTarget "TouchDrawTests" */;
+			buildPhases = (
+				7068AE0019EEF51C004B2998 /* Sources */,
+				7068AE0119EEF51C004B2998 /* Frameworks */,
+				7068AE0219EEF51C004B2998 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7068AE0619EEF51C004B2998 /* PBXTargetDependency */,
+			);
+			name = TouchDrawTests;
+			productName = TouchDrawTests;
+			productReference = 7068AE0419EEF51C004B2998 /* TouchDrawTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7068ADE319EEF51B004B2998 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Jeanie House";
+				TargetAttributes = {
+					7068ADEA19EEF51B004B2998 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					7068AE0319EEF51C004B2998 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 7068ADEA19EEF51B004B2998;
+					};
+				};
+			};
+			buildConfigurationList = 7068ADE619EEF51B004B2998 /* Build configuration list for PBXProject "TouchDraw" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7068ADE219EEF51B004B2998;
+			productRefGroup = 7068ADEC19EEF51B004B2998 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7068ADEA19EEF51B004B2998 /* TouchDraw */,
+				7068AE0319EEF51C004B2998 /* TouchDrawTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7068ADE919EEF51B004B2998 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70B948B519F8615600F6E018 /* RLine.xib in Resources */,
+				7068ADFC19EEF51B004B2998 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7068AE0219EEF51C004B2998 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7068ADE719EEF51B004B2998 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7068AE1C19EEF5CF004B2998 /* RLine.m in Sources */,
+				7068AE2219EEF697004B2998 /* DrawViewController.m in Sources */,
+				7068ADF419EEF51B004B2998 /* AppDelegate.m in Sources */,
+				7068AE1F19EEF64F004B2998 /* DrawView.m in Sources */,
+				7068ADF119EEF51B004B2998 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7068AE0019EEF51C004B2998 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7068AE0B19EEF51C004B2998 /* TouchDrawTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7068AE0619EEF51C004B2998 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7068ADEA19EEF51B004B2998 /* TouchDraw */;
+			targetProxy = 7068AE0519EEF51C004B2998 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7068AE0C19EEF51C004B2998 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		7068AE0D19EEF51C004B2998 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7068AE0F19EEF51C004B2998 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TouchDraw/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7068AE1019EEF51C004B2998 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TouchDraw/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7068AE1219EEF51C004B2998 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TouchDrawTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TouchDraw.app/TouchDraw";
+			};
+			name = Debug;
+		};
+		7068AE1319EEF51C004B2998 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TouchDrawTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TouchDraw.app/TouchDraw";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7068ADE619EEF51B004B2998 /* Build configuration list for PBXProject "TouchDraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7068AE0C19EEF51C004B2998 /* Debug */,
+				7068AE0D19EEF51C004B2998 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7068AE0E19EEF51C004B2998 /* Build configuration list for PBXNativeTarget "TouchDraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7068AE0F19EEF51C004B2998 /* Debug */,
+				7068AE1019EEF51C004B2998 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7068AE1119EEF51C004B2998 /* Build configuration list for PBXNativeTarget "TouchDrawTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7068AE1219EEF51C004B2998 /* Debug */,
+				7068AE1319EEF51C004B2998 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7068ADE319EEF51B004B2998 /* Project object */;
+}
